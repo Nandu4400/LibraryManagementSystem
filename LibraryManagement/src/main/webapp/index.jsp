@@ -7,11 +7,8 @@
     <link rel="stylesheet" href ="css/Style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="Registration.jsp">
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
-<input type="hidden" id="Status" value="=<%= request.getAttribute("Status") %>">
     <div class="wrapper">
         <form action="login" method="post">
             <h1>Login</h1>
@@ -38,24 +35,7 @@
                     <a href="Registration.jsp">Sign Up</a>
                 </p>
             </div>
-        </form>
-        <script src="https://code.jquery.com/jquery-3.7.0.min.js" ></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <!-- Your JavaScript code goes here -->
-        <script type="text/javascript">
-        if(Status == "Failed"){
-    		alert("Login Failed\n Check UserName and Password");
-    	}
-        if(Status == "Failed"){
-        	var Status=document.getElementById('Status').value;
-                swal({
-                  icon: 'error',
-                  title: 'Login Failed',
-                  text: 'Check Username and Password ',
-                });
-              }
-        </script>
-        
+        </form> 
     </div>
 </body>
 </html>
