@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:  100vh;
+    background-image: url('mrmrsfox52x.jpg');
+}
+.wrapper {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(79, 62, 62);
+    border-radius: 40px;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: aliceblue;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+
+}
+.Forgot-password{
+    display: flex;
+    justify-content: left;
+    font-size: 14.5px;
+    margin:15px;
+    position: relative;
+}
+.Forgot-password a{
+    color: aqua;
+    text-decoration: none;
+}
+.Forgot-password a:hover{
+    text-decoration: underline;
+
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(79, 62, 62);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+.btn:hover{
+    background: aqua ;
+}

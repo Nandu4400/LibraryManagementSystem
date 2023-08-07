@@ -1,0 +1,75 @@
+@import url("https://fonts.gooleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:  100vh;
+    background-image: url('return.webp');
+    background-size: cover;
+    background-position: center;
+}
+.Container{
+    max-width: 700px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100%/2 - 20px);
+}
+.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px ;
+    background-color: transparent;
+    font-size: 16px;
+    color: aliceblue;
+}
+.Same-Address label{
+    display: flex;
+    align-items: center;
+}
+form .h4{
+    margin-top:10px ;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(79, 62, 62);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+.btn:hover {
+    background: aqua ;
+}
